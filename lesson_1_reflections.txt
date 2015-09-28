@@ -1,0 +1,51 @@
+How did viewing a diff between two versions of a file help you see the 
+bug that was introduced?
+Comparing 2 files with "diff"(mac / linux) or "FC"(windows) is a fast 
+way to find typos and all other differences between two text files.
+
+How could having easy access to the entire history of a file make you a 
+more efficient programmer in the long term?
+When working on a bigger project, I may not overview all files. I may 
+work on one and another programmer may do further work on that file, so 
+later I can compare these two versions.
+Or when I try to improve my code but in the end it even got worse, I can 
+come back to an older version
+
+What do you think are the pros and cons of manually choosing when to 
+create a commit, like you do in Git, vs having versions automatically 
+saved, like Google Docs does?
+Pros:
++ Always commits that work, if you decide so
++ Not too many Commits per session
+
+Cons:
+- The user might be the biggest problem. If you forget to commit, bad 
+things can happen
+
+
+Why do you think some version control systems, like Git, allow saving 
+multiple files in one commit, while others, like Google Docs, treat each 
+file separately?
+I think the treatment is different because of the access to this 
+database. It might can appear problems by multiple access and multiple 
+file savings in one commit. Git might found a solution and Google Docs 
+don't need something like this because their commits on Google Docs is 
+always about one file, like one word-file or one power-point-file. So 
+there is nearly no coherency between multiple files.
+
+How can you use the commands git log and git diff to view the history of 
+files?
+Use 'git log' to view all commits in historical order.
+With 'git diff (1st commit) (2nd commit)' you can see the differences 
+between those files, showing added lines in green and deleted lines in 
+red.
+
+How might using version control make you more confident to make changes 
+that could break something?
+Using version control makes me confident to make changes because I can 
+return to any older commits were the code was stable. Instead of deleting 
+all my changes I did, I just can go back to an older commit and I'm back 
+to status quo.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I want to use Git for my next project, i heard it's called MemeMe, and I'm very excited.

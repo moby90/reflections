@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+In a git repository there is a hidden file '.git' which tracks the files in the 
+repository.
+This is the main difference between a standard directory and a git repository.
+
+How is the staging area different from the working directory and the respository? 
+What value do you think it offers?
+The value of the staging area is that I don't have to do multiple commits on my 
+own but I can add all the files I want to commit into one area and just do one 
+commit by myself.
+
