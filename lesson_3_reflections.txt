@@ -11,3 +11,8 @@ Branches are on my local machine. A unmerged commit is a branch.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 When I'm disconnected from the internet, I still can have access to my work.
+
+How would you collaborate without using Git or Github? What would be easier, and what would be harder?
+Without Git or Github I would try sending the files via email or dropbox or manually via a USB stick.
+It would be much easier to understand. Using git is in the beginning very difficult, but I think from time to time it will get easier.
+My method will get harder in bigger projects where more people would work on one project.
