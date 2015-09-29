@@ -31,3 +31,11 @@ The result of merging two branches is one branch containing code of both branche
 The way the diagram is represented is to show that a branch still can contain the same 
 code before branching but may have additional code, like on a real tree which also has 
 branches which are from the same tree but may have fruits on it.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually
+pros: 
++ a merge will never be forget
++ merging manually can annoy
+cons:
+- I will see what will be merged
+- I'm sure about the code afterwards
