@@ -9,3 +9,25 @@ The value of the staging area is that I don't have to do multiple commits on my
 own but I can add all the files I want to commit into one area and just do one 
 commit by myself.
 
+How can you use the staging area to make sure you have one commit per logical change?
+To use the staing area to make sure I have one commit per logical change, I first
+add the files I'm working on to the staging area. When I do changes on one file
+I have to re-add the file to the staging area and then do the commit. When a file 
+from the staging area differs from the file of the working area the commit won't happen.
+
+What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+Branches are important to keep a team of developers on the same track. From the master branch
+each developer should make his own branch and from time to time he has to merge his branch
+to the master branch so that every developer gets the newest version of their development.
+
+How do the diagrams help you visualize the branch structure?
+With the diagramm I can see the reachability from the current commit and also where a branch
+started and on which state a branch is since his last merge with the master branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram 
+the way we do?
+The result of merging two branches is one branch containing code of both branches.
+The way the diagram is represented is to show that a branch still can contain the same 
+code before branching but may have additional code, like on a real tree which also has 
+branches which are from the same tree but may have fruits on it.
