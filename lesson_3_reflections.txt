@@ -16,3 +16,8 @@ How would you collaborate without using Git or Github? What would be easier, and
 Without Git or Github I would try sending the files via email or dropbox or manually via a USB stick.
 It would be much easier to understand. Using git is in the beginning very difficult, but I think from time to time it will get easier.
 My method will get harder in bigger projects where more people would work on one project.
+
+When would you want to make changes in separate branch rather than directly in master? What benefits does each approach have?
+Changes in separate branch is good, when I want to experiment with my code or when I want to try something new. So this doesn't
+affect my original, stable code. Direct changes in master are good because I don't have the management with merging different code,
+so changes are direct affecting the master code.
